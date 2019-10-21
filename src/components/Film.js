@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import {Link } from 'react-router-dom'
 import Footer from './Footer'
 import Header from './Header'
-import dataa from '../films.json';
 import no from '../images/no.jpg'
 import StarRatings from 'react-star-ratings';
 
@@ -24,7 +23,7 @@ export default class Film extends Component{
         const api_call =await fetch(`https://api.tvmaze.com/search/shows?q=test`);
         const data = await api_call.json();
         let id =this.props.match.params.filmId;
-        const found = dataa.map(function(element) {
+        const found = data.map(function(element) {
                  if (element.show.id == id ) return film.push(element);
              });
         
