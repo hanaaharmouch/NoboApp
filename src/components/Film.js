@@ -66,7 +66,7 @@ export default class Film extends Component{
                                 <h2><span className="size"> Type : </span> <span className="size1">{this.state.thisFilm[0].show.type}</span></h2>
                                 <h2><span className="size"> Language : </span><span className="size1"> {this.state.thisFilm[0].show.language}</span></h2>
                                 <h2><span className="size"> Description : </span><span className="size1">{this.state.thisFilm[0].show.summary}</span></h2>
-                                <h2><span className="size"> Network : </span><span className="size1">{this.state.thisFilm[0].show.network.name}</span></h2>
+                                <h2><span className="size"> Networks : </span><span className="size1">{this.state.thisFilm[0].show.network.name}</span></h2>
 
                              </div>
                          </div>
