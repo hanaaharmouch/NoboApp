@@ -81,7 +81,7 @@ export default class Welcome extends Component{
         return (
 
           <body>
-            <h1 className="styleFont"> Welcome to NoboFilms </h1>
+            <h1 className="styleFont"> Welcome to NoboFilm </h1>
             <form  onSubmit={this.getFilm} class="search">
             <Paper className="root">
             <IconButton className="iconButton" aria-label="menu">
