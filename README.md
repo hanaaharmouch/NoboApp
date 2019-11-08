@@ -1,5 +1,5 @@
 # NoboApp
-This web application allows you to search for films in a json File
+This web application allows you to search for films using an API
 
 # install
 npm install
@@ -9,3 +9,6 @@ npm start
 
 # lien-vers-l'application
 https://quiet-island-83974.herokuapp.com
+
+# example
+pour tester essayer le mot test, apres vous allez voir tous les films essayer de cherche chaque film à part
